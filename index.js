@@ -25,7 +25,7 @@ function currentLine(line) {
   else {
     for(let i = 0; i < line.length; i++) {
       current += ` ${i + 1}. ${line[i]}`;
-      if(i !== line.length + 1) {
+      if(i !== line.length - 1) {
         current+= `,`;
       }
     }
