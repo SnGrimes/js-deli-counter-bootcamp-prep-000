@@ -7,10 +7,11 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing() {
+  let name = '';
   if(katzDeli.length === 0) {
     return "There is nobody waiting in line to be served.";
   }
   else {
-    katzDeli.
+    katzDeli.shift();
   }
 }
