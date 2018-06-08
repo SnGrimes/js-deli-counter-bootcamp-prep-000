@@ -13,6 +13,6 @@ function nowServing() {
   }
   else {
     name = katzDeli.shift();
-    
+    return `Currently serving ${name}`;
   }
 }
