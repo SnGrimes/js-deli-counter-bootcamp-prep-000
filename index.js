@@ -12,6 +12,7 @@ function nowServing() {
     return "There is nobody waiting in line to be served.";
   }
   else {
-    katzDeli.shift();
+    name = katzDeli.shift();
+    
   }
 }
